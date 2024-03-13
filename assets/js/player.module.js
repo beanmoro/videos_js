@@ -13,12 +13,8 @@ export class Player extends Multimedia {
         Video.setVideo(this.url, document.querySelector(this._id));
     }
 
-    setStart(seconds){
-        console.log(' 1 AAAAAAAAAAAAAAHHH '+seconds);
-        const iframe = document.querySelector(this._id);
-        console.log('2 AAAAAAAAAAAAAAHHH');
-        iframe.setAttribute('src', `${this.url}?start=${seconds}`);
-        console.log(' 3 AAAAAAAAAAAAAAH!!');
+    setStartTime(seconds){
+        document.querySelector(this._id).setAttribute('src', `${this.url}?start=${seconds}`)
     }
 
 }

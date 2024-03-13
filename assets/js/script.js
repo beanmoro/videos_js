@@ -10,13 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     musicPlayer.playMultimedia();
     moviePlayer.playMultimedia();
     seriesPlayer.playMultimedia();
-
-    setTimeout(()=>{
-        console.log('AAAAAAAAAAAAAAHHH');
-        moviePlayer.setStart(59);
-    }, 1000);
-
-
+    
+    moviePlayer.setStartTime(57);
 });
 
 
