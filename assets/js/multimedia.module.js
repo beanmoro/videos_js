@@ -9,7 +9,7 @@ export class Multimedia {
     }
     
     
-    setStart = (start) => {
+    setStart(){
         return 'Este metodo es para realizar un cambio en la  URL del video';
     };
 };

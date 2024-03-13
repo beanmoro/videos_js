@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     moviePlayer.playMultimedia();
     seriesPlayer.playMultimedia();
     
-    moviePlayer.setStartTime(57);
+    moviePlayer.setStart(57);
 });
 
 

@@ -13,7 +13,7 @@ export class Player extends Multimedia {
         Video.setVideo(this.url, document.querySelector(this._id));
     }
 
-    setStartTime(seconds){
+    setStart(seconds){
         Video.setVideo(`${this.url}?start=${seconds}`, document.querySelector(this._id));
     }
 
